@@ -1,0 +1,161 @@
+#navbar {
+	padding-top: 2rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+
+body {
+	background-color: black;
+	padding-top: 4.0rem;
+}
+
+.navbar-brand {
+	font-family: 'Antic Didone', serif;
+	font-size: 2.2rem;
+	font-weight: 400;
+}
+
+#img-contact {
+	max-height: 700px;
+}
+
+.nav-item {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+
+}
+
+#crusader {
+	font-family: 'Rock Salt', cursive;
+	font-size: 2rem;
+	font-weight: 200;
+	
+}
+
+#privatechef {
+	color: #919191;
+	font-weight: 100;
+	padding-right: 0.5rem;
+}
+
+#arrow {
+	font-size: 22px;
+}
+
+#head-portfolio {
+	margin-top: 5rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+
+#head-portfolio p {
+	font-family: 'Antic Didone', serif;
+	font-size: 1.7rem;
+	color: #919191;
+	text-align: center;
+	margin-bottom: 0;
+	font-weight: 100;
+
+}
+
+form {
+	width: 60%;
+}
+
+form p {
+	margin: 0;
+}
+
+form h2 {
+	font-family: 'Antic Didone', serif;
+	color: #919191;
+	margin-bottom: 1rem;
+	font-weight: 100;
+}
+
+form label {
+	color: #919191;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.8rem;
+	line-height: 0.5rem;
+
+}
+
+form input {
+	height: 40px;
+	background-color: #1f1f1f;
+	border: none;
+	border-radius: 8px;
+	width: 100%;
+	line-height: 0.5;
+	text-indent: 0.5rem;
+}
+
+textarea, form input {
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.8rem;
+	outline: none;
+}
+
+textarea {
+	background-color: #1f1f1f;
+	border: none;
+	border-radius: 8px;
+	width: 100%;
+	padding: 0.5rem;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+.contact .input-group span {
+	position: absolute;
+	top: 3px;
+	left: 12px;
+	background: white;
+}
+
+.contact .input-group input:focus ~ span {
+	top: -3px;
+	left: 3px;
+}
+
+.text-portfolio {
+	width: 60%;
+	border-left: 2px solid #919191;
+	border-image: 
+		linear-gradient(
+			to bottom,
+			#919191,
+			rgba(0,0,0,0)
+		)	1 100%;
+
+	padding-left: 2rem;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	color: #ffffff;
+	font-weight: 100;
+	line-height: 1.3rem;
+}
+
+.text-portfolio h3 {
+	margin: 0;
+	font-size: 1rem;
+}
+
+.note {
+	margin-bottom: 0;
+	font-style: italic;
+}
+
+
+
+
+
